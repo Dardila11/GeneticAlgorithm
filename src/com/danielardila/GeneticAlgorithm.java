@@ -45,7 +45,7 @@ public class GeneticAlgorithm {
             // Agregamos el offspring mas adecuado a la poblacion
             geneticAlgorithm.addFittestOffspring();
 
-            // Calculamos el nuevo valor del fitness de tosos los individuos de la poblacion
+            // Calculamos el nuevo valor del fitness de todos los individuos de la poblacion
             geneticAlgorithm.population.calculateFitness();
 
 
@@ -68,12 +68,7 @@ public class GeneticAlgorithm {
 
             System.out.println("");
 
-
-
         }
-
-
-
 
 
     }

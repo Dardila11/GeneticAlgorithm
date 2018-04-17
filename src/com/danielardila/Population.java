@@ -37,6 +37,7 @@ public class Population {
      * @return el individual mas adecuado el cual se encuentra en maxFitIndex
      */
     public Individual getTheFittest(){
+        // masFit: Una constante que contiene el valor mínimo que puede tener int, -2^31
         int maxFit = Integer.MIN_VALUE;
         int maxFitIndex = 0;
 
